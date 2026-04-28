@@ -1,0 +1,43 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Runtime state and logs
+ui_state.json
+*.log
+desktop_error.log
+
+# User input/output data
+invoice_pdfs/
+qrcode_images/
+需要冲红的发票/
+_clear_test_dir/
+_clear_ui_test_dir/
+_recovered_src/
+_debug_*.py
+tmphfl74qn3/
+tmpiv0g6ewj/
+tmpno4ysqss/
+tmp_decode.js
+
+# Local/business data samples
+*.xlsx
+*.xls
+*.jpeg
+*.jpg
+*.pdf
+店铺发票对应公司.txt
+assets_res_js_*.js
+
+# Build outputs
+build/
+dist/
+build_rebuild_*/
+dist_rebuild_*/
+build_upload_*/
+dist_upload_*/
+*.spec
+
+release/
